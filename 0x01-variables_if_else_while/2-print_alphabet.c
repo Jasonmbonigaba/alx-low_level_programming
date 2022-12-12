@@ -2,12 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Print the number is positive,negative or 0
+ * main - prints if number is positive,negative or zero
  *
- * return: Awlays 0
+ * Return: Always 0 (success)
  */
 int main(void)
-
 {
 	int n;
 
@@ -18,7 +17,7 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	esle if (n == 0)
+	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
 	}
