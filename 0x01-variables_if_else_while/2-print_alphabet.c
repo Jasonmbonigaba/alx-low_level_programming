@@ -3,17 +3,18 @@
 
 /**
  * main - prints aphabets in lower cases
- *
+ *Description: Get a random it with 5
  * Return: Always 0 (sucess)
  */
 int main(void)
 {
-	int ch = 'a';
 
-	while (ch <= 'a')
+	char c = 'a';
+
+	while (c <= 'z')
 	{
 		putchar(ch);
-		ch++;
+		c++;
 	}
 	putchar('\n');
 	return (0);
