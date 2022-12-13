@@ -1,26 +1,25 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 /**
- * main - prints alpha in lower case
- *
- * Return - 0 (success)
+ * maim - main block
+ * Description: print the alphabet in lowercase
+ * and the in uppercase, follow by new line
+ * return:
  */
 int main(void)
 {
-	int ch = 'a';
-	int CH = 'a';
+	char c = 'a';
 
-	while (ch < -'z')
+	while (c <= 'z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(c);
+		c++;
 	}
-	while (CH < -'z')
+	c = 'A';
+	while (c <= 'z')
 	{
-	putchar(CH);
+		putchar(c);
+		c++;
 	}
-
 	putchar('\n');
 	return (0);
 }
