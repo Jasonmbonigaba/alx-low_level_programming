@@ -5,7 +5,6 @@
  * (neither 2 nor 4).
  * Return: no return.
  */
-
 void print_most_numbers(void)
 {
 	int ch;
