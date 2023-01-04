@@ -1,25 +1,19 @@
 #include <stdio.h>
-/**
- * maim - main block
- * Description: print the alphabet in lowercase
- * and the in uppercase, follow by new line
- * return:
- */
-int main(void)
-{
-	char c = 'a';
 
-	while (c <= 'z')
-	{
-		putchar(c);
-		c++;
-	}
-	c = 'A';
-	while (c <= 'z')
-	{
-		putchar(c);
-		c++;
-	}
+/**
+* main - prints the alphabet in lowercase, and then in uppercase,
+* followed by a new line
+* Return: Always 0 (Success)
+*/
+int main(void)
+
+{
+	int ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
 	putchar('\n');
 	return (0);
 }
